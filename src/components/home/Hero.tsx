@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <motion.section 
+    <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.8 }}
@@ -11,7 +11,7 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-6">
-          <motion.h1 
+          <motion.h1
             initial={{ y: 20 }}
             animate={{ y: 0 }}
             className="text-4xl md:text-6xl font-bold"

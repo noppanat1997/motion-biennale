@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Header = () => {
   return (
-    <motion.header 
+    <motion.header
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       className="fixed w-full top-0 z-50 bg-background/80 backdrop-blur-sm"
