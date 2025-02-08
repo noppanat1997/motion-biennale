@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
-const Header = () => {
+export default function Header() {
   return (
     <motion.header
       initial={{ opacity: 0, y: -20 }}

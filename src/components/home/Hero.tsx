@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
-const Hero = () => {
+export default function Hero() {
   return (
     <motion.section
       initial={{ opacity: 0 }}
