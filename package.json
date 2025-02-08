@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "rm yarn.lock && npx @cloudflare/next-on-pages@1"
   },
   "dependencies": {
     "clsx": "^2.1.1",
