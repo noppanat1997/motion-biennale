@@ -1,3 +1,5 @@
+"use client"
+
 import { motion } from 'framer-motion';
 import Image from 'next/image';
 
@@ -25,7 +27,7 @@ export default function Hero() {
         </div>
         <div className="relative h-[60vh]">
           <Image
-            src="/placeholder-hero.jpg"
+            src="/images/house1.avif"
             alt="Featured architecture"
             fill
             className="object-cover rounded-lg"
@@ -36,5 +38,3 @@ export default function Hero() {
     </motion.section>
   );
 };
-
-export default Hero;
